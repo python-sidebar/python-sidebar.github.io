@@ -1,0 +1,80 @@
+/* Import from original theme. */
+pre {
+    padding: 5px;
+    background-color: #eeffcc;
+    color: #333333;
+    line-height: 120%;
+    border: 1px solid #ac9;
+    border-left: none;
+    border-right: none;
+}
+
+/* Import from original theme. */
+div.body a {
+    color: #0072aa;
+}
+div.body a:visited {
+    color: #6363bb;
+}
+div.body a:hover {
+    color: #00B0E4;
+}
+/* minor edit to add scope `div.wy-nav-content` to fix sidebar */
+div.wy-nav-content a code span.pre {
+    color: #2980b9;
+}
+
+/* Import from original theme.
+   Fixes an awful issue where RTD theme settings made non-hyperlinks look like hyperlinks.
+*/
+html.writer-html4 .rst-content dl:not(.docutils)>dt, html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.citation):not(.glossary):not(.simple)>dt {
+    color: #222222;
+}
+
+/* Import from original theme.
+   Make inline code blocks look more like GitHub and Slack
+*/
+code,
+.rst-content code,
+.rst-content code.literal,
+.rst-content tt,
+.rst-content tt.literal {
+    color: #333333;
+    padding: 0 1px 0 1px;
+    font-size: 0.95em;
+    background-color: #ecf0f3;
+}
+
+/* Import from original theme. */
+a.headerlink {
+    visibility: hidden;
+}
+
+a.brackets:before {
+    content: "[";
+}
+
+a.brackets:after {
+    content: "]";
+}
+
+
+/* Import from original theme. */
+span.linkdescr {
+    font-style: italic;
+    padding-top: 5px;
+    font-size: 90%;
+}
+a.biglink {
+    font-size: 1.3em;
+}
+
+div.footer {
+    line-height: 150%;
+    margin-top: -2em;
+    text-align: right;
+    width: auto;
+    margin-right: 10px;
+    font-size: 75%;
+    padding: 9px 0 9px 0;
+}
