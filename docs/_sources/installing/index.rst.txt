@@ -239,3 +239,9 @@ obtaining other binary extensions without needing to build them locally.
 
    `Python Packaging User Guide: Binary Extensions
    <https://packaging.python.org/extensions/>`__
+
+
+.. toctree::
+   :hidden:
+   
+   ../install/index.rst
