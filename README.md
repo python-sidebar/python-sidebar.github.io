@@ -15,4 +15,4 @@ live inside the following fork of `cpython` repo (which is where the official Py
 The page you are on now <br>
 is the result of running `sphinx-build` on the following fork's `Doc/` folder:
 
-- https://github.com/python-docs-101/Python-Documentation-Theme-Fork
+- https://github.com/python-docs-101/Python-Documentation-Fork-With-TOC
