@@ -1,4 +1,4 @@
-# python-docs-101.github.io
+# python-sidebar.github.io
 The Official Python Docs ➡ but with an added TOC panel!
 
 - https://python-sidebar.github.io/
